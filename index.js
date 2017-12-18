@@ -19,3 +19,15 @@ function johnLennonFacts(facts) {
 
   return shoutedFacts
 }
+
+function iLoveTheBeatles(number) {
+
+  const array = []
+
+  do {
+    array.push('I love the Beatles!')
+    number++
+  }
+  while (number < 15)
+return array
+}
